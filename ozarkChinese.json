@@ -2,17 +2,18 @@
     "Strings": {
         "": {
             "Abusive": "恶搞",
-            "Chat Commands": "聊天及指令",
             "Attachments": "套模型",
+            "COMING SOON": "即将更新",
+            "Chat Commands": "聊天及指令",
             "Crash": "崩溃玩家",
             "ESP": "透视",
+            "Entity Blocking": "实体拦截",
             "Friendly": "友好",
             "Host Kick": "主机踢",
             "LUA Scripts": "LUA脚本",
             "Miscellaneous": "其他",
             "Spawner": "生成",
             "Spectate them if they're far away": "观看增强崩溃效果",
-            "Text Message": "消息",
             "Teleport": "传送",
             "Text Message": "文字消息",
             "Trolling": "快速恶搞"
@@ -526,23 +527,29 @@
         },
         "Edit": {
             "Clone": "克隆",
+            "Column": "列",
             "Delete": "删除",
             "ESP": "透视",
             "Explode": "爆炸",
+            "Index": "索引",
             "Kill": "处死",
             "Revive": "复活",
-            "Teleport": "传送"
+            "Teleport": "传送",
+            "Toggle": "切换"
         },
         "Entity Blocking": {
             "Automobile": "汽车",
             "Bike": "自行车",
             "Boat": "船只",
+            "Door": "门",
             "Enabled": "启用",
             "Ghost for Player": "幽灵的玩家",
+            "Heli": "直升机",
             "Helicopter": "直升机",
             "Object": "对象",
             "Ped": "NPC",
             "Pickup": "拾取",
+            "Pickup Placement": "捡拾放置",
             "Plane": "飞机",
             "Player": "玩家",
             "Submarine": "潜水艇",
@@ -676,7 +683,7 @@
             "Join Me": "加入我",
             "Join Player": "加入玩家",
             "Send Crew Message": "发送帮会消息",
-            "Show SC Profile": "显示SC简介"
+            "Show SC Profile": "显示帐号简介"
         },
         "Game Events": {
             "Clone": "克隆",
@@ -701,7 +708,7 @@
             "Script Host Migration": "脚本主机迁移"
         },
         "Garage Vehicles": {
-            "No Garages": "No Garages"
+            "No Garages": "没有车库"
         },
         "Ghost Mode": {
             "All Players": "所有玩家",
@@ -1045,6 +1052,7 @@
             "Dump players information to a file in the Ozark folder": "将玩家信息转储到Ozark文件夹中的文件中",
             "Force Visible": "可见力",
             "HUD": "HUD",
+            "Metric to be used in features such as Speedometer": "用于速度表等功能的公制单位",
             "Migrate Script Host": "迁移脚本主机",
             "Model Swap": "模型交换",
             "Panels": "面板",
@@ -1056,7 +1064,8 @@
             "Spectate": "观看",
             "Speed Calculations": "速度计算",
             "Tunables": "可调参数",
-            "Visions": "视觉"
+            "Visions": "视觉",
+            "You NEED to use RID spoofing for this, otherwise you have the chance to get banned": "你需要使用虚拟RID，否则你有机会被封号"
         },
         "Model": {
             "Ambient": "个性",
@@ -1166,6 +1175,7 @@
             "Presence": "战局追踪",
             "Protection": "保护",
             "Recent Players": "近期玩家",
+            "Rockstar Developers": "R星开发者",
             "Session": "所有玩家",
             "Spoofing": "虚假信息"
         },
@@ -1271,6 +1281,7 @@
             "Annoying in VC": "恼人的VC",
             "Apartment Invite": "公寓邀请",
             "Ban from CEO": "禁止担任CEO",
+            "Beach Party TP": "传送沙滩派对",
             "Being Friendly": "友好",
             "Being Helpful": "乐于助人",
             "Black Screen": "黑屏",
@@ -1301,6 +1312,7 @@
             "Kick From Vehicle": "从车内踢出",
             "Kick from CEO": "CEO踢出",
             "Miscellaneous": "其他选项",
+            "Model Sync Crash": "模型同步崩溃",
             "Model Update": "模型更新",
             "NPC": "生成选项",
             "Network": "战局选项",
@@ -1326,6 +1338,8 @@
             "Remove All Weapons": "移除所有武器",
             "Remove Wanted Level": "移除通缉令级别",
             "Remove Weapon": "移除武器",
+            "SESCE Crash": "SESCE Crash",
+            "SWSE Crash": "SWSE Crash",
             "Screen Flicker": "屏幕闪烁",
             "Script Host Migration": "脚本主机迁移",
             "Set Weather": "设置天气",
@@ -1334,6 +1348,7 @@
             "Spoofing Chat to": "欺骗性聊天",
             "Spoofing Text Message to": "欺骗性信息",
             "Teleport": "传送选项",
+            "Transaction Error": "交易错误",
             "Vehicle": "车辆选项",
             "Vehicle Lock On": "车辆锁定",
             "Weapon": "武器选项",
@@ -1471,6 +1486,7 @@
             "Input Player": "输入玩家",
             "Join Me": "加入我",
             "Join Player": "加入玩家",
+			"Force join this player, even if they're in an invite only!": "强制加入此玩家，即使他们只是在邀请战局中！",
             "Send Crew Message": "发送帮会消息"
         },
         "Presence Events": {
@@ -1505,6 +1521,7 @@
             "Automatically ghost yourself to modders in the session": "在会话中自动将自己幽灵化给修改者",
             "Block Rockstar ID joiners resolving you, or give it another players info instead": "阻止Rockstar ID加入者解析你或者把其他玩家的信息给它",
             "Block attachments": "屏蔽附着物",
+            "Cage": "Cage",
             "Crash Event": "崩溃事件",
             "Disable Modder Sync": "禁用修改器同步",
             "Entity Blocking": "实体拦截",
@@ -1516,6 +1533,7 @@
             "Network Events": "网络事件",
             "Notification when someone tries to crash you": "当有人试图崩溃你时，会发出通知",
             "Presence Events": "存在事件",
+            "Prevents cages spawning": "防止笼子生成",
             "Stops creating entities you spawn on target games": "停止创建您在目标游戏中产生的实体"
         },
         "Puddles": {
@@ -1579,6 +1597,11 @@
             "Permanent": "常用",
             "Players": "玩家",
             "~m~None": "~m~没有"
+        },
+        "Rockstar Developers": {
+            "Bail On Join": "加入时离开",
+            "Developers": "开发者",
+            "Notify On Join": "加入时通知"
         },
         "Rockstar ID": {
             "Input Rockstar ID": "输入Rockstar ID",
@@ -1706,9 +1729,10 @@
             "Turmeric": "姜黄",
             "Turquoise": "绿松石",
             "Ultra Violet": "紫外线",
+            "Unload": "关闭扎克",
             "Valiant Poppy": "罂粟花",
             "Videos": "显示设置",
-            "[A]lpha": "[A]lpha",
+            "[A]lpha": "透明度",
             "[B]lue": "蓝色",
             "[G]reen": "绿色",
             "[R]ed": "红色"
@@ -1847,7 +1871,8 @@
             "Spoofs you as a R* Developer when you join a session": "当你加入一个战局时,将你伪装成一个R星开发者",
             "Spoofs your peer token to 1 to get next session host faster": "将你的对等令牌伪装成1，以便更快地获得下一个战局主机",
             "Stops your player doing a move animation": "停止玩家的移动动画",
-            "Vehicle Rotation": "车辆旋转"
+            "Vehicle Rotation": "车辆旋转",
+            "You NEED to use RID spoofing for this, otherwise you have the chance to get banned": "你需要使用虚假RID，否则你有机会被封号"
         },
         "Stats": {
             "Column": "栏目",
@@ -1977,7 +2002,7 @@
             "Model": "模型",
             "Model Swap": "模型交换",
             "Modifiers": "修改器",
-            "Money": "Money",
+            "Money": "钱",
             "Movement": "运动",
             "Multipliers": "倍增器",
             "NPC": "生成选项",
@@ -2017,6 +2042,7 @@
             "Randomization": "随机化",
             "Recent Player": "近期玩家",
             "Recent Players": "近期玩家",
+            "Rockstar Developers": "R星开发者",
             "Rockstar ID": "Rockstar ID",
             "Rotation": "轮换",
             "Save Load": "保存加载",
@@ -2025,12 +2051,13 @@
             "ScriptHook": "脚本插件",
             "Seats": "座位数",
             "Session": "战局玩家",
+            "Session Browser": "战局浏览",
             "Settings": "设置选项",
             "Sounds": "声音",
             "Spawn": "生成",
             "Speedometer": "速度器",
             "Spoofing": "虚假信息",
-            "Stats": "Stats",
+            "Stats": "统计",
             "Store": "商店",
             "Swap With...": "交换...",
             "Targets": "目标",
@@ -2070,8 +2097,7 @@
             "Weapons": "武器",
             "Weather": "天气",
             "Wins and Losses": "胜负",
-            "World": "世界选项",
-            "xurui111": "xurui111"
+            "World": "世界选项"
         },
         "Targets": {
             "Toggle Targets": "切换目标"
@@ -2080,7 +2106,7 @@
             "Apartments": "公寓",
             "Auto Waypoint": "自动传送到标记点",
             "Directions": "方向",
-            "IPLs": "IPLs",
+            "IPLs": "需要加载的地点",
             "Popular Locations": "常用地点",
             "Save and Load": "保存和加载",
             "Store Locations": "商店地点",
@@ -2167,6 +2193,7 @@
             "Aim Entity": "目标实体",
             "Aim Tag": "瞄准标签",
             "Bullet Buffer": "子弹缓冲器",
+            "Bullet Delay": "子弹延迟",
             "Toggle Triggerbot": "切换触发器"
         },
         "Trolling": {
