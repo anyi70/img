@@ -12,7 +12,9 @@
             "Host Kick": "主机踢",
             "LUA Scripts": "LUA脚本",
             "Miscellaneous": "其他",
+            "Removals": "Removals",
             "Spawner": "生成",
+            "Spectate": "Spectate",
             "Spectate them if they're far away": "观看增强崩溃效果",
             "Teleport": "传送",
             "Text Message": "文字消息",
@@ -185,6 +187,12 @@
             "Wheel Ground Side Friction Multiplier": "车轮接地摩擦系数",
             "Wheelie Balance Point": "特技平衡点",
             "Wheelie Steer Multiplier": "特技转向倍增器"
+        },
+        "Blacklisted Players": {
+            "Click on this player to remove them from the blacklist": "单击此玩家可将其从黑名单中删除",
+            "Delete All": "删除全部",
+            "Players": "玩家",
+            "~m~None": "~m~没有"
         },
         "Boat Handling": {
             "Aquaplane Force": "滑水动力",
@@ -445,6 +453,11 @@
             "Type": "种类",
             "Visual": "视觉"
         },
+        "Desync Kick": {
+            "Block": "拦截",
+            "Notify": "通知",
+            "Redirect": "反弹"
+        },
         "Directions": {
             "Above": "向上",
             "Backwards": "向后",
@@ -555,6 +568,16 @@
             "Submarine": "潜水艇",
             "Trailer": "拖车",
             "Train": "火车"
+        },
+        "Entity Events": {
+            "Attachment Event": "套模事件",
+            "Automatically stop syncing entities to modders in the session": "自动停止将实体同步到战局中的外挂",
+            "Block attachments": "拦截模型",
+            "Disable Modder Sync": "禁止外挂同步",
+            "Entity Blocking": "拦截实体",
+            "Entity Limits": "实体限制",
+            "Ghost Mode": "幽灵模式",
+            "Stops creating entities you spawn on target games": "停止创建你在目标游戏中产生的实体"
         },
         "Entity Limits": {
             "+ Add Limit": "+ 增加限制",
@@ -686,6 +709,7 @@
             "Show SC Profile": "显示帐号简介"
         },
         "Game Events": {
+            "Cage": "Cage",
             "Clone": "克隆",
             "Entity Owner Migration": "实体所有者迁移",
             "Notification when a player is dropping money": "当有玩家掉钱时，会发出通知",
@@ -697,6 +721,7 @@
             "Player Money Drop": "玩家金钱掉落",
             "Player Spawn": "玩家生成",
             "Player Spectate": "玩家观看",
+            "Prevents cages spawning": "防止笼子生成",
             "Prevents modders kicking you with script host": "防止修改者用脚本主机踢你",
             "Prevents modders taking ownership of your spawned entities": "防止修改者拥有您的生成实体的所有权",
             "Prevents modders taking script host from you": "防止修改者从你那里获取脚本主机",
@@ -843,18 +868,22 @@
         },
         "Host Toolkit": {
             "Allows an extra player to join past the usual limit": "允许一个额外的玩家加入，超过通常的限制",
+            "Blacklisted Players": "被列入黑名单的玩家",
             "Block Force Host Joining": "阻止强制主机加入",
             "Block Invalid IP Joining": "阻止无效的IP加入",
             "Block Invalid Name Joining": "阻止无效名称加入",
             "Block Invalid RID Joining": "阻止无效的RID加入",
+            "Block/redirect desync & netlimiter kicks in your session": "阻止/反弹战局中的同步和网络错误踢出",
             "Blocks IP spoofers from joining the session. You have to be host!": "阻止虚假IP加入战局,你必须是主机!",
             "Blocks most IP spoofers from joining the session. You have to be host!": "阻止大多数虚假IP加入战局,你必须是主机!",
             "Blocks most RID spoofers from joining the session. You have to be host!": "阻止大多数虚假RID加入战局,你必须是主机!",
             "Blocks most force host spoofers from joining the session. You have to be host!": "阻止大多数强迫虚假主机加入战局,你必须是主机!",
             "Blocks obvious name spoofers from joining the session. You have to be host!": "阻止明显的虚假名字加入战局,你必须是主机!",
             "Create Session": "创建战局",
+            "Desync Kick": "同步踢出",
             "Migrate Script Host": "迁移脚本主机",
             "Open Extra Slot": "开设额外槽位",
+            "View and modify players who have been host kicked and are blacklisted from joining back": "查看和修改被主机踢出并被列入黑名单的玩家",
             "Who Is't May Joineth": "哪些人可以加入"
         },
         "IP Address": {
@@ -1196,6 +1225,18 @@
             "Sound": "声音",
             "Weather": "天气"
         },
+        "Notifications": {
+            "Crash": "崩溃",
+            "Desync Kicks": "同步踢",
+            "Drops": "掉落",
+            "Notification when a player is desync kicking another player": "当一个玩家去同步踢另一个玩家时通知",
+            "Notification when a player is dropping money/rp": "玩家掉钱袋或经验时通知",
+            "Notification when a player spawns": "玩家生成时通知",
+            "Notification when a player spectates another player": "当一个玩家注视另一个玩家时通知",
+            "Notification when someone tries to crash you": "当有人试图崩溃你时通知",
+            "Spawns": "生成",
+            "Spectates": "观看"
+        },
         "Object": {
             "Local Objects": "附近实体",
             "Object Building": "构建实体",
@@ -1335,11 +1376,12 @@
             "Presence: Text Message": "提示: 短信",
             "Prevented": "已预防",
             "Quantum Crash": "量子崩溃",
+            "Quantum Kicking": "量子踢",
             "Remove All Weapons": "移除所有武器",
             "Remove Wanted Level": "移除通缉令级别",
             "Remove Weapon": "移除武器",
-            "SESCE Crash": "SESCE Crash",
-            "SWSE Crash": "SWSE Crash",
+            "SESCE Crash": "赛斯崩溃",
+            "SWSE Crash": "SWSE崩溃",
             "Screen Flicker": "屏幕闪烁",
             "Script Host Migration": "脚本主机迁移",
             "Set Weather": "设置天气",
@@ -1483,10 +1525,10 @@
             "Position Y": "坐标 Y轴"
         },
         "Presence": {
+            "Force join this player, even if they're in an invite only!": "强制加入此玩家，即使他们只是在邀请战局中！",
             "Input Player": "输入玩家",
             "Join Me": "加入我",
             "Join Player": "加入玩家",
-			"Force join this player, even if they're in an invite only!": "强制加入此玩家，即使他们只是在邀请战局中！",
             "Send Crew Message": "发送帮会消息"
         },
         "Presence Events": {
@@ -1521,10 +1563,11 @@
             "Automatically ghost yourself to modders in the session": "在会话中自动将自己幽灵化给修改者",
             "Block Rockstar ID joiners resolving you, or give it another players info instead": "阻止Rockstar ID加入者解析你或者把其他玩家的信息给它",
             "Block attachments": "屏蔽附着物",
-            "Cage": "Cage",
+            "Cage": "笼子",
             "Crash Event": "崩溃事件",
             "Disable Modder Sync": "禁用修改器同步",
             "Entity Blocking": "实体拦截",
+            "Entity Events": "实体事件",
             "Entity Limits": "实体限制",
             "Event Limits": "事件限制",
             "Game Events": "游戏事件",
@@ -1532,8 +1575,10 @@
             "Join Events": "加入事件",
             "Network Events": "网络事件",
             "Notification when someone tries to crash you": "当有人试图崩溃你时，会发出通知",
+            "Notifications": "通知事件",
             "Presence Events": "存在事件",
             "Prevents cages spawning": "防止笼子生成",
+            "Protections that only have notifies, non customisable": "只有通知的保护，不可自定义",
             "Stops creating entities you spawn on target games": "停止创建您在目标游戏中产生的实体"
         },
         "Puddles": {
@@ -1598,9 +1643,19 @@
             "Players": "玩家",
             "~m~None": "~m~没有"
         },
+        "Removals": {
+            "Break Freemode Kick": "中断自由模式踢出",
+            "Crash": "崩溃",
+            "Script Host Kick": "脚本主机踢",
+            "Session Host Kick": "战局主机踢",
+            "You can't use this kick on the host": "你不能踢出主机",
+            "You need to be host to use this kick": "你必须是主机才能使用"
+        },
         "Rockstar Developers": {
+            "Bail": "保释",
             "Bail On Join": "加入时离开",
             "Developers": "开发者",
+            "Notify": "通知",
             "Notify On Join": "加入时通知"
         },
         "Rockstar ID": {
@@ -1661,6 +1716,7 @@
             "ESP": "透视",
             "Friendly": "友好",
             "Overseer": "黑名单",
+            "Removals": "清除",
             "Teleport": "传送",
             "Text Message": "消息",
             "Trolling": "快速恶搞"
@@ -1860,6 +1916,7 @@
         },
         "Spoofing": {
             "Crew": "帮会",
+            "Force Next Session Host": "强制获得下个战局主机",
             "IP Address": "IP地址",
             "Movement Animation": "动作动画",
             "Name": "名称",
@@ -1868,6 +1925,7 @@
             "Rockstar Developer": "R星开发者",
             "Rockstar ID": "Rockstar ID",
             "Rotation": "旋转",
+            "Spoofs to gain next session host. YOU HAVE TO LOAD INTO SP FIRST OTHERWISE YOU WILL HAVE ISSUES. If you want to disable, you have to restart": "欺骗以获得下一个战局主机。必须先加载到SP，否则会出现问题。如果要禁用，必须重新启动",
             "Spoofs you as a R* Developer when you join a session": "当你加入一个战局时,将你伪装成一个R星开发者",
             "Spoofs your peer token to 1 to get next session host faster": "将你的对等令牌伪装成1，以便更快地获得下一个战局主机",
             "Stops your player doing a move animation": "停止玩家的移动动画",
@@ -1937,6 +1995,7 @@
             "Attackers": "攻击者",
             "Autopilot": "自动驾驶",
             "Bike Handling": "自行车处理",
+            "Blacklisted Players": "黑名单玩家",
             "Boat Handling": "船只处理",
             "Boost": "提升",
             "Browser": "观看",
@@ -1954,6 +2013,7 @@
             "Crew Rank": "帮会等级",
             "Crew Tag": "帮会标签",
             "Custom Explosion": "自定义爆炸",
+            "Desync Kick": "同步踢",
             "Directions": "方向",
             "Disables": "禁用",
             "Dispatch": "调度",
@@ -1963,6 +2023,7 @@
             "ESP": "透视",
             "Edit": "编辑",
             "Entity Blocking": "拦截实体",
+            "Entity Events": "实体事件",
             "Entity Limits": "实体限制",
             "Event Handler": "事件处理程序",
             "Event Limits": "事件限制",
@@ -1986,7 +2047,7 @@
             "Health": "健康",
             "Host Toolkit": "主机工具箱",
             "IP Address": "IP地址",
-            "IPLs": "IPLs",
+            "IPLs": "需要加载的地点",
             "Join Events": "加入事件",
             "Kato_Katsuhiro": "Kato_Katsuhiro",
             "Level": "等级",
@@ -2010,6 +2071,7 @@
             "Name": "名称",
             "Network": "战局选项",
             "Network Events": "网络事件",
+            "Notifications": "通知事件",
             "Object": "实体选项",
             "Object Building": "实体构建",
             "Object Settings": "实体设置",
@@ -2042,6 +2104,7 @@
             "Randomization": "随机化",
             "Recent Player": "近期玩家",
             "Recent Players": "近期玩家",
+            "Removals": "移除",
             "Rockstar Developers": "R星开发者",
             "Rockstar ID": "Rockstar ID",
             "Rotation": "轮换",
